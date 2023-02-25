@@ -28,8 +28,8 @@ theme = "hero"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
     meta_og_description = "Centro de Investigación, Innovación y Emprendimiento"
     meta_twitter_card = "Centro de Investigacion, Innovacion y Emprendimiento"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@rejewskilabs"
+    meta_twitter_creator = "@rejewskilabs"
 
 [[menu.main]]
     name = "Nosotros"
