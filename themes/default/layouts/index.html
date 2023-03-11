@@ -2,11 +2,13 @@
 <main aria-role="main">
   <div
     id="home"
-    class="bg-left-top bg-cover bg-no-repeat bg-center bg-gradient-to-r from-cyan-500 to-blue-500 flex h-screen justify-center items-center text-center relative"
-  >
+    class="bg-left-top bg-cover bg-no-repeat bg-center bg-gradient-to-r from-cyan-700 to-blue-700 flex flex-col h-screen justify-center items-center text-center relative"
+  > 
+    {{ block "header" . }}
+    {{ end }}
     <div class="text-center p-4">
       <a href="#">
-        <img src="images/logo.png" alt="logo" />
+        <img src="/images/logo.png" alt="logo" />
       </a>
       <p class="text-xl md:text-4xl text-slate-200 p-2">
         {{ .Site.Params.Subtext }}
@@ -38,9 +40,9 @@
     class="flex h-screen justify-center items-center text-center bg-slate-100 relative"
   >
     <div class="container py-4 px-4 mx-0 flex flex-col items-center max-w-lg">
-      <h2 class="text-5xl mb-3 text-slate-900">About Us</h2>
+      <h2 class="text-5xl mb-3 text-slate-900">{{ .Site.Params.About }}</h2>
       <p class="md:text-xl text-slate-900 text-justify">
-        {{ .Site.Params.About }}
+        {{ .Site.Params.Description }}
       </p>
       <button
         class="bg-slate-900 text-slate-100 font-bold py-2 px-4 mt-3 rounded"
@@ -74,7 +76,7 @@
     class="flex h-screen justify-center items-center text-center bg-slate-900 relative"
   >
     <div class="container py-4 px-4 mx-0 flex flex-col items-center max-w-lg">
-      <h2 class="text-5xl mb-3 text-slate-100">Contact Us</h2>
+      <h2 class="text-5xl mb-3 text-slate-100">{{ .Site.Params.Contact }}</h2>
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">

@@ -7,8 +7,48 @@ languages:
   es:
     params:
       subtext: Centro de Investigación, Innovación y Emprendimiento
-      about: Somos un equipo comprometido al desarrollo de iniciativas en ciberseguridad enfocadas a tecnologías de la información y las comunicaciones. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzadas y únicas contribuciones científicas.
+      about: Conocenos
+      description: Somos un equipo comprometido al desarrollo de iniciativas en ciberseguridad enfocadas a tecnologías de la información y las comunicaciones. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzadas y únicas contribuciones científicas.
+      contact: Contactanos
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /es
+          weight: 1
+        - identifier: about
+          name: Conocenos
+          url: /es#about
+          weight: 2
+        - identifier: mandelbrot
+          name: Programa Mandelbrot
+          url: /es#
+          weight: 3
+        - identifier: contact
+          name: Contactanos
+          url: /es#contact
+          weight: 4
   en:
     params:
       subtext: A Hub for Research, Innovation, and Entrepreneurship
-      about: We are committed to developing research initiatives on cybersecurity-focused technology for information and communication systems. By collaborating with universities and other academic institutions, we strive to establish in-depth and unique initiatives that contribute to scientific advancement.
+      about: About Us
+      description: We are committed to developing research initiatives on cybersecurity-focused technology for information and communication systems. By collaborating with universities and other academic institutions, we strive to establish in-depth and unique initiatives that contribute to scientific advancement.
+      contact: Contact Us
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+        - identifier: about
+          name: About
+          url: /#about
+          weight: 2
+        - identifier: mandelbrot
+          name: Mandelbrot Program
+          url: /#
+          weight: 3
+        - identifier: contact
+          name: Contact
+          url: /#contact
+          weight: 4
