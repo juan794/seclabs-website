@@ -2,3 +2,11 @@ baseURL: https://rejewski-seclabs.org/
 languageCode: en-us
 title: Rejewski SecLabs
 theme: default
+defaultContentLanguage: en
+languages:
+  es:
+    params:
+      subtext: Centro de Investigacion, Innovacion y Emprendimiento
+  en:
+    params:
+      subtext: A Hub for Research, Innovation, and Entrepreneurship
