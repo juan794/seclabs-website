@@ -6,7 +6,9 @@ defaultContentLanguage: en
 languages:
   es:
     params:
-      subtext: Centro de Investigacion, Innovacion y Emprendimiento
+      subtext: Centro de Investigación, Innovación y Emprendimiento
+      about: Somos un equipo comprometido al desarrollo de iniciativas en ciberseguridad enfocadas a tecnologías de la información y las comunicaciones. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzados y únicas contribuciones en el campo científico.
   en:
     params:
       subtext: A Hub for Research, Innovation, and Entrepreneurship
+      about: We are committed to developing research initiatives on cybersecurity-focused technology for information and communications systems. By collaborating with universities and other academic institutions, we strive to establish in-depth and unique initiatives that contribute to scientific advancement.
