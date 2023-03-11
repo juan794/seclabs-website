@@ -17,21 +17,14 @@
         </svg>
       </button>
       <ul
-        class="hidden w-full flex flex-col mt-1 border border-slate-100 rounded-lg bg-gradient-to-r from-cyan-700 to-blue-700 md:block md:flex md:flex-row md:justify-end md:border-0"
+        class="hidden w-full flex flex-col mt-1 border border-slate-100 rounded-lg bg-gradient-to-r from-cyan-700 to-blue-700 md:block md:flex md:flex-row md:justify-center md:border-0"
         id="navbar"
       >
+        {{ range .Site.Menus.main }}
         <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
-          <a href="#">Home</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
-        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
-          <a href="#">Articles</a>
-        </li>
-        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
-          <a href="#">Mandelbrot Program</a>
-        </li>
-        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
-          <a href="#contact">Contact Us</a>
-        </li>
+        {{ end }}
       </ul>
     </div>
   </nav>
