@@ -2,8 +2,10 @@
 <main aria-role="main">
   <div
     id="home"
-    class="bg-left-top bg-cover bg-no-repeat bg-center bg-gradient-to-r from-cyan-500 to-blue-500 flex h-screen justify-center items-center text-center relative"
-  >
+    class="bg-left-top bg-cover bg-no-repeat bg-center bg-gradient-to-r from-cyan-700 to-blue-700 flex flex-col h-screen justify-center items-center text-center relative"
+  > 
+    {{ block "header" . }}
+    {{ end }}
     <div class="text-center p-4">
       <a href="#">
         <img src="/images/logo.png" alt="logo" />

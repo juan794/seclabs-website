@@ -1,0 +1,42 @@
+{{ define "header" }}
+<div class="absolute top-0 w-full">
+  <nav class="p-6">
+    <div class="container flex flex-wrap mx-auto">
+      <button
+        class="flex items-center px-3 py-2 border rounded outline-none md:hidden"
+        type="button"
+        onclick="menu.classList.toggle('hidden');"
+      >
+        <svg
+          class="fill-current text-slate-100 h-5 w-5"
+          aria-hidden="true"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+      <ul
+        class="hidden w-full flex flex-col mt-1 border border-slate-100 rounded-lg bg-gradient-to-r from-cyan-700 to-blue-700 md:block md:flex md:flex-row md:justify-end md:border-0"
+        id="navbar"
+      >
+        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
+          <a href="#">Home</a>
+        </li>
+        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
+          <a href="#">Articles</a>
+        </li>
+        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
+          <a href="#">Mandelbrot Program</a>
+        </li>
+        <li class="py-2 pl-3 pr-4 rounded-lg text-slate-100 md:hover:bg-gray-100 md:hover:text-slate-900">
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<script>
+  var menu = document.querySelector("#navbar");
+</script>
+{{ end }}

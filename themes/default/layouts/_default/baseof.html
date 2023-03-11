@@ -9,15 +9,20 @@
     <meta property="og:type" content="article" />
 
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>{{ .Site.Title }}</title>
   </head>
-  <body class="antialiased bg-gray-900">
+  <body class="antialiased">
+    {{ if not .IsHome }}
+      {{ block "header" . }}
+      {{ end }}
+    {{ end}}
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
-    {{ end }} {{ block "footer" . }}
+    {{ end }}
+    {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
   </body>
