@@ -9,11 +9,11 @@
         <img src="images/logo.png" alt="logo" />
       </a>
       <p class="text-xl md:text-4xl text-slate-200 p-2">
-        A Hub for Research, Innovation, and Entrepreneurship
+        {{ .Site.Params.Subtext }}
       </p>
     </div>
     <div
-      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center m-5"
+      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center m-5 pb-5"
     >
       <a href="#about">
         <svg
@@ -40,11 +40,7 @@
     <div class="container py-4 px-4 mx-0 flex flex-col items-center max-w-lg">
       <h2 class="text-5xl mb-3 text-slate-900">About Us</h2>
       <p class="md:text-xl text-slate-900 text-justify">
-        We are committed to developing research initiatives on
-        cybersecurity-focused technology and communication. By collaborating
-        with universities and academic institutions, we strive to establish
-        in-depth and unique initiatives that contribute to scientific
-        advancement.
+        {{ .Site.Params.About }}
       </p>
       <button
         class="bg-slate-900 text-slate-100 font-bold py-2 px-4 mt-3 rounded"
@@ -53,7 +49,7 @@
       </button>
     </div>
     <div
-      class="absolute bottom-0 rounded-full bg-slate-900 w-12 h-12 text-center m-5"
+      class="absolute bottom-0 rounded-full bg-slate-900 w-12 h-12 text-center m-5 pb-5"
     >
       <a href="#contact">
         <svg
@@ -128,7 +124,7 @@
       </form>
     </div>
     <div
-      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center m-5"
+      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center m-5 pb-5"
     >
       <a href="#home">
         <svg
