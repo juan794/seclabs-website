@@ -1,7 +1,7 @@
 ---
 title: "Impulsa Tu Futuro"
 image: '/card.png'
-link: '/#'
+extlink: 'https://forms.gle/HpVJUXmgviUpjaPVA'
 label: Registro
 date: 2023-03-12T01:32:26+01:00
 draft: false
