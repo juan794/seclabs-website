@@ -2,38 +2,64 @@
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D70JDRZQ8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D70JDRZQ8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-3D70JDRZQ8');
-  </script>
+      gtag("config", "G-3D70JDRZQ8");
+    </script>
     <meta charset="UTF-8" />
+    {{ if .IsHome }}
     <meta property="og:title" content="Rejewski Security Labs" />
-    <meta property="og:description" content="A Hub for Research, Innovation, and Entrepreneurship.">
-    <meta property="og:image" content="https://rejewski-seclabs.org/images/meta-logo.png" />
+    <meta
+      property="og:description"
+      content="A Hub for Research, Innovation, and Entrepreneurship."
+    />
+    <meta
+      property="og:image"
+      content="https://rejewski-seclabs.org/images/meta-logo.png"
+    />
     <meta property="og:url" content="https://rejewski-seclabs.org" />
     <meta property="og:type" content="article" />
+    {{ else }}
+    <meta property="og:title" content="{{ .Title }} - Rejewski Security Labs" />
+    <meta
+      property="og:description"
+      content="{{ .Summary }}"
+    />
+    <meta
+      property="og:image"
+      content="{{ .Params.image | absURL }}"
+    />
+    <meta property="og:url" content="https://rejewski-seclabs.org" />
+    <meta property="og:type" content="article" />
+    {{ end }}
 
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>{{ .Site.Title }}</title>
   </head>
   <body class="antialiased">
     {{ if not .IsHome }}
     <div class="w-full bg-gradient-to-r from-cyan-700 to-blue-700">
-      {{ block "header" . }}
-      {{ end }}
+      {{ block "header" . }} {{ end }}
     </div>
     {{ end}}
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    {{ block "footer" . }}
+    {{ end }} {{ block "footer" . }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{ end }}
   </body>
