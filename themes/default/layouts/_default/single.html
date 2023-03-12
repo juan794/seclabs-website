@@ -1,8 +1,16 @@
-{{ define "title" }}
-  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+<div class="flex w-full h-screen bg-gradient-to-r from-cyan-700 to-blue-700 p-5 md:p-0 md:flex md:justify-center md:items-center md:text-center md:relative">
+  <div class="max-w-sm overflow-hidden justify-center items-center md:flex md:flex-row md:max-w-6xl md:items-start">
+    <img src="{{ .Params.Image }}" alt="404" class="rounded-lg w-full md:w-1/2">
+    <div class="px-6 py-4 md:items-start md:text-left md:flex md:flex-col md:w-1/2">
+      <div class="font-bold text-xl text-slate-200 mb-2">{{ .Title }}</div>
+      <div class="text-slate-100 text-xl text-justify pb-6">
+        {{ .Content }}  
+      </div>
+      <a class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" href="{{ .Params.Link }}">
+        {{ .Params.Label }}
+      </a>
+    </div>
+  </div>
+</div>
 {{ end }}
