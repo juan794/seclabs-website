@@ -6,4 +6,4 @@ label: Registro
 date: 2023-03-12T01:32:26+01:00
 draft: false
 ---
-Únete a nosotros como pasante. Te guiaremos a mejorar tu carrera a través de una diversidad de actividades en los que se obtendrás experiencias en temas de ingeniería de software, criptografía, blockchain, negocios y escritura académica con enfoque holístico. Brindamos posibilidades de crecimiento profesional al mismo tiempo que te permitimos aprender sobre tecnologías avanzadas y usarlas al servicio de la comunidad para resolver problemas de coyuntura local.
+Únete a nosotros como pasante. Te guiaremos a mejorar tu carrera a través de una diversidad de actividades en los que obtendrás experiencias en temas de ingeniería de software, criptografía, blockchain, negocios y escritura académica con enfoque holístico. Brindamos oportunidades de crecimiento profesional al mismo tiempo que te permitimos aprender sobre tecnologías avanzadas y usarlas al servicio de la comunidad para resolver problemas de coyuntura local.
