@@ -5,11 +5,13 @@ theme: default
 defaultContentLanguage: en
 languages:
   es:
+    contentDir: content/es
     params:
       subtext: Centro de Investigación, Innovación y Emprendimiento
       about: Conocenos
       description: Somos un equipo comprometido al desarrollo de iniciativas en ciberseguridad enfocadas a tecnologías de la información y las comunicaciones. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzadas y únicas contribuciones científicas.
       contact: Contactanos
+      text404: Error 404 - Page Not Found
     menu:
       main:
         - identifier: home
@@ -22,18 +24,20 @@ languages:
           weight: 2
         - identifier: mandelbrot
           name: Programa Mandelbrot
-          url: /es#
+          url: /es/mandelbrot
           weight: 3
         - identifier: contact
           name: Contactanos
           url: /es#contact
           weight: 4
   en:
+    contentDir: content/en
     params:
       subtext: A Hub for Research, Innovation, and Entrepreneurship
       about: About Us
       description: We are committed to developing research initiatives on cybersecurity-focused technology for information and communication systems. By collaborating with universities and other academic institutions, we strive to establish in-depth and unique initiatives that contribute to scientific advancement.
       contact: Contact Us
+      text404: Error 404 - Page Not Found
     menu:
       main:
         - identifier: home
@@ -46,7 +50,7 @@ languages:
           weight: 2
         - identifier: mandelbrot
           name: Mandelbrot Program
-          url: /#
+          url: /mandelbrot
           weight: 3
         - identifier: contact
           name: Contact
