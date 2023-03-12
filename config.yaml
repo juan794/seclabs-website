@@ -9,7 +9,7 @@ languages:
     params:
       subtext: Centro de Investigación, Innovación y Emprendimiento
       about: Conocenos
-      description: Somos un equipo comprometido al desarrollo de iniciativas en ciberseguridad enfocadas a tecnologías de la información y las comunicaciones. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzadas y únicas contribuciones científicas.
+      description: Somos un equipo comprometido al desarrollo de iniciativas en tecnologías de la información y las comunicaciones enfocadas en ciberseguridad. Con la colaboración de universidad u otras instituciones académicas, nos esforzamos en establecer avanzadas y únicas contribuciones científicas.
       contact: Contactanos
       text404: Error 404 - Page Not Found
     menu:
@@ -30,6 +30,10 @@ languages:
           name: Contactanos
           url: /es#contact
           weight: 4
+        - identifier: en
+          name: English Version
+          url: https://rejewski-seclabs.org/
+          weight: 5
   en:
     contentDir: content/en
     params:
@@ -56,3 +60,7 @@ languages:
           name: Contact
           url: /#contact
           weight: 4
+        - identifier: es
+          name: Spanish Version
+          url: https://rejewski-seclabs.org/es
+          weight: 5
