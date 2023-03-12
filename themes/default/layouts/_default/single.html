@@ -1,3 +1,9 @@
+{{ define "meta" }}
+{{ $title := .Title }}
+{{ $description := .Description }}
+{{ $image := .Params.Image }}
+{{ $type := "article" }}
+{{ end  }}
 {{ define "main" }}
 <div class="flex w-full h-screen bg-gradient-to-r from-cyan-700 to-blue-700 p-5 md:p-0 md:flex md:justify-center md:items-center md:text-center md:relative">
   <div class="max-w-sm overflow-hidden justify-center items-center md:flex md:flex-row md:max-w-6xl md:items-start">
