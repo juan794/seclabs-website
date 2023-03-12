@@ -6,5 +6,4 @@ label: Registro
 date: 2023-03-12T01:32:26+01:00
 draft: false
 ---
-Únete a nosotros como pasante. Te guiaremos a mejorar tu carrera a través de una diversidad de actividades en los que obtendrás experiencias en temas de ingeniería de software, criptografía, blockchain, negocios y escritura académica con enfoque holístico. Brindamos oportunidades de crecimiento profesional al mismo tiempo que aprendes sobre tecnologías avanzadas y usarlas al
-servicio de la comunidad para resolver problemas de coyuntura local.
+El programa **Pasante Mandelbrot** busca conectar estudiantes universitarios de pregrado e investigadores con experiencia internacional influyentes de múltiples campos de la seguridad de sistemas de la información y las comunicaciones. Trabajaremos con tecnologías avanzadas y en aplicaciones de soluciones a problemas dentro del contexto local. Adicionalmente, ejecutaremos actividades de responsabilidad social y te guiaremos a mejorar tu perfil a través de conocimientos adquiridos desde diversos proyectos multidisciplinarios en diversos temas aplicados a ingeniería de software, seguridad en hardware y software, criptografía, blockchain, negocios y escritura académica con enfoque holístico. 

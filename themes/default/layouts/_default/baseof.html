@@ -24,9 +24,9 @@
     />
     <meta
       property="og:image"
-      content="https://rejewski-seclabs.org/images/meta-logo.png"
+      content="{{ "meta-logo.png" | absURL }}"
     />
-    <meta property="og:url" content="https://rejewski-seclabs.org" />
+    <meta property="og:url" content="{{ "" | absURL }}" />
     <meta property="og:type" content="article" />
     {{ else }}
     <meta property="og:title" content="{{ .Title }} - Rejewski Security Labs" />
@@ -38,7 +38,7 @@
       property="og:image"
       content="{{ .Params.image | absURL }}"
     />
-    <meta property="og:url" content="https://rejewski-seclabs.org" />
+    <meta property="og:url" content="{{ "" | absURL }}" />
     <meta property="og:type" content="article" />
     {{ end }}
 
