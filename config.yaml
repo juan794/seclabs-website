@@ -23,7 +23,7 @@ languages:
           url: /#about
           weight: 2
         - identifier: mandelbrot
-          name: Programa Mandelbrot
+          name: Pasante Mandelbrot
           url: /mandelbrot
           weight: 3
         - identifier: contact
