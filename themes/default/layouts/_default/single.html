@@ -1,13 +1,13 @@
 {{ define "main" }}
-<div class="flex w-full h-screen bg-gradient-to-r from-cyan-700 to-blue-700 p-5 md:p-0 md:flex md:justify-center md:items-center md:text-center md:relative">
-  <div class="max-w-sm overflow-hidden justify-center items-center md:flex md:flex-row md:max-w-6xl ">
+<div class="flex w-full h-screen bg-gradient-to-r from-cyan-800 to-blue-800 p-5 md:p-0 md:flex md:justify-center md:items-center md:text-center md:relative">
+  <div class="max-w-sm justify-center items-center md:flex md:flex-row md:max-w-6xl">
     <img src="{{ .Params.Image }}" alt="404" class="rounded-lg w-full md:w-1/2">
-    <div class="px-6 py-4 md:items-start md:text-left md:flex md:flex-col md:w-1/2">
-      <div class="font-bold text-xl text-slate-200 mb-2">{{ .Title }}</div>
-      <div class="text-slate-100 text-base text-justify pb-6">
+    <div class="md:items-start md:text-left md:flex md:flex-col md:w-1/2">
+      <div class="font-bold text-xl text-slate-200 my-2">{{ .Title }}</div>
+      <div class="text-slate-100 text-base text-justify mb-4">
         {{ .Content }}  
       </div>
-      <a class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" target="_blank" href="{{ .Params.Extlink }}">
+      <a class="bg-white text-gray-800 font-semibold py-2 px-2 border-gray-400 rounded shadow hover:bg-gray-100" target="_blank" href="{{ .Params.Extlink }}">
         {{ .Params.Label }}
       </a>
     </div>
