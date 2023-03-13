@@ -2,7 +2,7 @@ baseURL: https://rejewski-seclabs.org/
 languageCode: en-us
 title: Rejewski Security Labs
 theme: default
-defaultContentLanguage: en
+defaultContentLanguage: es
 languages:
   es:
     contentDir: content/es
@@ -20,19 +20,19 @@ languages:
           weight: 1
         - identifier: about
           name: Conocenos
-          url: /es#about
+          url: /#about
           weight: 2
         - identifier: mandelbrot
           name: Programa Mandelbrot
-          url: /es/mandelbrot
+          url: /mandelbrot
           weight: 3
         - identifier: contact
           name: Contactanos
-          url: /es#contact
+          url: /#contact
           weight: 4
         - identifier: en
           name: English Version
-          url: https://rejewski-seclabs.org/
+          url: https://rejewski-seclabs.org/en
           weight: 5
   en:
     contentDir: content/en
@@ -50,17 +50,17 @@ languages:
           weight: 1
         - identifier: about
           name: About
-          url: /#about
+          url: /en/#about
           weight: 2
         - identifier: mandelbrot
           name: Mandelbrot Program
-          url: /mandelbrot
+          url: /en/mandelbrot
           weight: 3
         - identifier: contact
           name: Contact
-          url: /#contact
+          url: /en/#contact
           weight: 4
         - identifier: es
           name: Spanish Version
-          url: https://rejewski-seclabs.org/es
+          url: https://rejewski-seclabs.org
           weight: 5
