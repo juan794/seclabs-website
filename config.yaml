@@ -2,7 +2,7 @@ baseURL: https://rejewski-seclabs.org/
 languageCode: en-us
 title: Rejewski Security Labs
 theme: default
-defaultContentLanguage: en
+defaultContentLanguage: es
 languages:
   es:
     contentDir: content/es
@@ -32,7 +32,7 @@ languages:
           weight: 4
         - identifier: en
           name: English Version
-          url: https://rejewski-seclabs.org/
+          url: https://rejewski-seclabs.org/en
           weight: 5
   en:
     contentDir: content/en
