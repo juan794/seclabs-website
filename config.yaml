@@ -30,10 +30,10 @@ languages:
           name: Contactanos
           url: /#contact
           weight: 4
-        - identifier: en
-          name: English Version
-          url: https://rejewski-seclabs.org/en
-          weight: 5
+        # - identifier: en
+        #   name: English Version
+        #   url: https://rejewski-seclabs.org/en
+        #   weight: 5
   en:
     contentDir: content/en
     params:
