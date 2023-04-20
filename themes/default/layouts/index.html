@@ -126,7 +126,7 @@
       </form>
     </div>
     <div
-      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center mb-8 md:mb-5"
+      class="absolute bottom-0 rounded-full bg-slate-100 w-12 h-12 text-center mb-9 md:mb-9"
     >
       <a href="#home">
         <svg
@@ -144,6 +144,9 @@
           />
         </svg>
       </a>
+    </div>
+    <div class="absolute bottom-0 items-center px-4 py-2 text-sm">
+      {{ block "footer" . }} {{ end }}
     </div>
   </div>
 </main>
